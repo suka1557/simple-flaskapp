@@ -22,7 +22,7 @@ jobs:
     - name: Set up Python 3.8.0
       uses: actions/setup-python@v3
       with:
-        python-version: "3.8.0"
+        python-version: 3.8.0
     - name: Create Virtual Environment and Install dependencies
       run: |
         make venv
